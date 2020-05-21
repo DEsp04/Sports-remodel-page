@@ -1,0 +1,820 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.sidebar {
+	height: 100%;	
+	width: 0; /* we are going to use js coding to change the width of sidebar */
+	position: fixed; /* side bar will stay in place*/
+	z-index: 1; /* Allow sidebar to stay on top */
+	top: 0;
+	left: 0;
+	background-color: #224579; /* side bar background-color will be dark blue */
+	overflow-x: hidden; /* to turn off the horizontal scroll by using 'hidden'*/
+	padding-top: 0px; /* this is to see where you want the content to start vertically */
+	transition: 0.01s; /* how fast you want the sidebar to slide */
+}
+
+.sidebar-ul {
+	font-size: 1.3em;
+	list-style-type: none;
+	padding: 0%;
+	margin: 12%; 
+}
+
+.sidebar-ul li {
+	margin: 8%;
+}
+
+#sidebar-sports a {
+	display: block;
+	width: 85%;
+	text-decoration: none;
+	color: white;
+	padding: 8%;
+}
+
+#sidebar-sports li:not(#sidebar-sportheader) {
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.9);
+}
+
+#sidebar-sportheader {
+	margin: 8%;
+	background-color: yellow;
+	padding: 11% 0;
+	border: #93d250 solid 4px;
+	color: #224579;
+}
+
+#sidebar-sportheader h2 {
+	text-align: center;
+	margin: 0;
+}
+
+#broadcast {
+	background-color: #1a3863;
+	border-radius: 3%;
+	padding: 5% 0;
+}
+
+#broadcast li {
+	margin: 5%;
+}
+
+#broadcast a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin: 8%;
+}
+
+#main-webpage-content {
+	transition: margin-left .01s;  /* This is to push the content to the right when the sidebar is open */
+}
+
+#logo {
+	width: 60%;
+	margin-left: 0;
+}
+
+#logo h1 {
+	font-size: 3em;
+	line-height: 0;
+}
+
+#bkgrnd {
+	width: 100%;
+	position: fixed;	
+	z-index: 1000;
+}
+
+header nav {
+	display: none;
+}
+
+
+#hamburger {
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	margin-left: 5%; 
+}
+
+.hambtn {
+	background-color: yellow;
+	color: #224579;
+	font-size: 1.6em;	
+	border-radius: 12%;
+	border: none;
+	cursor: pointer;
+	padding: 3px 6px;
+	position: absolute;
+	top: 26%;		
+}
+
+
+
+
+
+
+
+#articles {
+	margin-top: 0;
+	padding-top: 7%;
+	height: 50vh;
+	display: none;	
+}
+
+#sports-image-container {
+	max-width: 100%;
+	position: relative;
+	padding-top: 7%;
+	height: auto;
+}
+
+.slide {
+	width: 100%;
+	height: 360px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: none;
+}
+
+#mobile-knicks {
+	background-image: url(../images/knickscoach.jpg);
+}
+
+#mobile-titans {
+	background-image: url(../images/titans.jpg);
+}
+
+#mobile-kobe {
+	background-image: url(../images/kobe.jpeg);
+	background-position: center;
+}
+
+#mobile-kobe  h3 {
+	margin: 24% 0 0 0;
+}
+ 
+#mobile-tyson {
+	background-image: url(../images/MikeTyson.jpg);
+}
+
+#mobile-astro {
+	background-image: url(../images/ifastros.jpg);
+}
+
+.mobile-header-position {
+	position: absolute;
+	top: 45%;
+	left: 4%;
+}
+
+#kobe-header {
+	top: 50%;
+}
+
+.long-header {
+	color: #224579;
+	background-color: yellow;
+	opacity: 0.6;
+	width: calc(50px + (150 - 50) * ((100vw - 300px) / (600 - 300)));
+	height: auto;
+	text-align: center;
+	font-size: calc(8px + (10 - 8) * ((100vw - 300px) / (600 - 300)));
+	display: block;
+	margin: 8% 0;
+}
+
+.long-header p {
+	margin: 0;
+	padding: 2% 0;
+}
+
+.short-header {
+	color: #224579;
+	background-color: yellow;
+	opacity: 0.6;
+	width: calc(30px + (40 - 30) * ((100vw - 300px) / (600 - 300)));
+	height: auto;
+	text-align: center;
+	font-size: calc(8px + (10 - 8) * ((100vw - 300px) / (600 - 300)));
+	display: block;
+	margin: 8% 0;
+}
+
+.short-header p {
+	margin: 0;
+	padding: 2% 0;
+}
+
+#mike-tyson-header {
+	color: #224579;
+	background-color: yellow;
+	opacity: 0.6;
+	width: calc(50px + (80 - 50) * ((100vw - 300px) / (600 - 300)));
+	height: auto;
+	text-align: center;
+	font-size: calc(8px + (10 - 8) * ((100vw - 300px) / (600 - 300)));
+	display: block;
+	margin: 8% 0;
+}
+
+#mike-tyson-header p {
+	margin: 0;
+	padding: 2% 0;
+}
+
+.mobile-header-position h3 {
+	font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (767 - 300)));
+	line-height: 5vw;
+}
+
+.authors-name {
+	color: white;
+	font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (767 - 300)));	
+}
+
+#toggle-circle {
+	text-align: center;
+}
+
+.circle {
+	height: 15px;
+	width: 15px;
+	margin: 0 2%;
+	background-color: #4e6d9c;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.active, .circle:hover {
+	background-color: #19365f;
+}
+
+#f-article h3 {
+	font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (600 - 300)));
+    	font-weight: 800;
+    	line-height: 2.5vw;
+}
+
+#f-article p {
+	font-size: calc(1px + (10 - 1) * ((100vw - 300px) / (600 - 300)));
+}
+
+#superbowl {
+	height: 290px;
+}
+
+#sub-info h3 {
+	font-size: calc(8px + (16 - 8) * ((100vw - 300px) / (600 - 300)));
+}
+
+#subscribe-content {
+	font-size: calc(1px + (11 - 1) * ((100vw - 300px) / (600 - 300)));
+	line-height: 1.3;
+}
+
+#subscribe-sign-up {
+	background-color: #cc2117;
+	width: calc(10px + (50 - 10) * ((100vw - 300px) / (600 - 300)));
+	font-size: calc(2px + (6 - 2) * ((100vw - 300px) / (600 - 300)));;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#article-2 {
+	height: 400px;
+}
+
+#article-2 h3 {
+	line-height: 3vw;
+}
+
+#f-name p {
+	font-size: calc(8px + (13.5 - 8) * ((100vw - 300px) / (600 - 300)));
+}
+
+#footer-flex ul {
+    font-size: calc(4px + (9 - 4) * ((100vw - 300px) / (600 - 300)));
+}
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+/* keep in mind we might have to adjust the sidebar for smaller device using padding */
+
+.sidebar {
+	height: 100%;	
+	width: 0; /* we are going to use js coding to change the width of sidebar */
+	position: fixed; /* side bar will stay in place*/
+	z-index: 1; /* Allow sidebar to stay on top */
+	top: 0;
+	left: 0;
+	background-color: #224579; /* side bar background-color will be dark blue */
+	overflow-x: hidden; /* to turn off the horizontal scroll by using 'hidden'*/
+	padding-top: 0px; /* this is to see where you want the content to start vertically */
+	transition: 0.01s; /* how fast you want the sidebar to slide */
+	
+}
+
+.sidebar-ul {
+	font-size: 1.4em;
+	list-style-type: none;
+	padding: 0%;
+	margin: 10%; 
+}
+
+.sidebar-ul li {
+	margin: 10%;
+}
+
+#sidebar-sports a {
+	display: block;
+	width: 85%;
+	text-decoration: none;
+	color: white;
+	padding: 8%;
+}
+
+#sidebar-sports li:not(#sidebar-sportheader) {
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.9);
+}
+
+#sidebar-sportheader {
+	margin: 8%;
+	background-color: yellow;
+	padding: 11% 0;
+	border: #93d250 solid 4px;
+	color: #224579;
+}
+
+#sidebar-sportheader h2 {
+	text-align: center;
+	margin: 0;
+}
+
+#broadcast {
+	background-color: #1a3863;
+	border-radius: 3%;
+	padding: 5% 0;
+}
+
+#broadcast li {
+	margin: 5%;
+}
+
+#broadcast a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin: 8%;
+}
+
+
+#main-webpage-content {
+	transition: margin-left .01s;  /* This is to push the content to the right when the sidebar is open */
+}
+
+#logo {
+	width: 60%;
+	margin-left: 0;
+}
+
+#logo h1 {
+	font-size: 3em;
+	line-height: 0;
+}
+
+#bkgrnd {
+	width: 100%;
+	position: fixed;	
+	z-index: 1000;
+}
+
+header nav {
+	display: none;
+}
+
+
+#hamburger {
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	margin-left: 5%; 
+}
+
+.hambtn {
+	background-color: yellow;
+	color: #224579;
+	font-size: 1.6em;	
+	border-radius: 12%;
+	border: none;
+	cursor: pointer;
+	padding: 3px 6px;
+	position: absolute;
+	top: 26%;		
+}
+
+#news {
+	margin-left: 20%;
+}
+
+#nba-hl {
+	left: -96px;
+}
+
+#nfl-hl {
+	left: -140px;
+}
+
+#mlb-hl {
+	left: -180px;
+}
+
+#nhl-hl {
+	left: -224px;
+}
+
+#ddul2-flex {
+	left: -130px;
+}
+
+#articles {
+	margin-top: 0;
+	padding-top: 7%;
+	display: none;	
+}
+
+#sports-image-container {
+	max-width: 100%;
+	position: relative;
+	padding-top: 7%;
+	height: auto;
+}
+
+.slide {
+	width: 100%;
+	height: 460px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: none;
+}
+
+#mobile-knicks {
+	background-image: url(../images/knickscoach.jpg);
+}
+
+#mobile-titans {
+	background-image: url(../images/titans.jpg);
+}
+
+#mobile-kobe {
+	background-image: url(../images/kobe.jpeg);
+	background-position: center;
+}
+
+#mobile-kobe  h3 {
+	margin: 24% 0 0 0;
+}
+ 
+#mobile-tyson {
+	background-image: url(../images/MikeTyson.jpg);
+}
+
+#mobile-astro {
+	background-image: url(../images/ifastros.jpg);
+}
+
+.mobile-header-position {
+	position: absolute;
+	top: 45%;
+	left: 4%;
+}
+
+#kobe-header {
+	top: 50%;
+}
+
+.long-header {
+	color: #224579;
+	background-color: yellow;
+	opacity: 0.6;
+	width: calc(6px + (58 - 6) * ((100vw - 300px) / (767 - 600)));
+	height: auto;
+	text-align: center;
+	font-size: calc(9px + (10 - 9) * ((100vw - 300px) / (767 - 600)));
+	display: block;
+	margin: 8% 0;
+}
+
+.long-header p {
+	margin: 0;
+	padding: 2% 0;
+}
+
+.short-header {
+	color: #224579;
+	background-color: yellow;
+	opacity: 0.6;
+	width: calc(6px + (18 - 6) * ((100vw - 300px) / (767 - 600)));
+	height: auto;
+	text-align: center;
+	font-size: calc(9px + (10 - 9) * ((100vw - 300px) / (767 - 600)));
+	display: block;
+	margin: 8% 0;
+}
+
+.short-header p {
+	margin: 0;
+	padding: 2% 0;
+}
+
+#mike-tyson-header {
+	color: #224579;
+	background-color: yellow;
+	opacity: 0.6;
+	width: calc(6px + (40 - 6) * ((100vw - 300px) / (767 - 600)));
+	height: auto;
+	text-align: center;
+	font-size: calc(9px + (10 - 9) * ((100vw - 300px) / (767 - 600)));
+	display: block;
+	margin: 8% 0;
+}
+
+#mike-tyson-header p {
+	margin: 0;
+	padding: 2% 0;
+}
+
+.mobile-header-position h3 {
+	font-size: calc(6px + (17 - 6) * ((100vw - 300px) / (767 - 600)));
+	line-height: 4vw;
+}
+
+.authors-name {
+	color: white;
+	font-size: calc(9px + (10 - 9) * ((100vw - 300px) / (767 - 600)));	
+}
+
+#toggle-circle {
+	text-align: center;
+}
+
+.circle {
+	height: 15px;
+	width: 15px;
+	margin: 0 2%;
+	background-color: #4e6d9c;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.active, .circle:hover {
+	background-color: #19365f;
+}
+
+#f-article h3 {
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (767 - 300)));
+    	font-weight: 800;
+    	line-height: 2.5vw;
+}
+
+#f-article p {
+	font-size: calc(8px + (12 - 8) * ((100vw - 300px) / (767 - 300)));
+}
+
+#superbowl {
+	height: 390px;
+}
+
+#sub-info h3 {
+	font-size: calc(8px + (22 - 8) * ((100vw - 300px) / (767 - 300)));
+}
+
+#article-2 {
+	height: 500px;
+}
+
+#article-2 h3 {
+	line-height: 2.8vw;
+}
+
+#f-name p {
+	font-size: calc(8px + (13.5 - 8) * ((100vw - 300px) / (767 - 300)));
+}
+
+}
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+.sidebar {
+	display: none;
+}
+
+#bkgrnd {
+	position: relative;
+	padding: 0;
+}
+
+#logo {
+	width: 12%;
+	position: relative;
+	left: 0;
+}
+
+#logo h1 {
+	line-height: 0.5;
+	margin-left: 5%;
+	font-size: 1.8em;
+	position: absolute;
+	top: 3%;
+	left: 4%; 
+}
+
+header nav {
+	display: block;
+}
+
+#hamburger {
+	display: none;
+}
+
+
+
+#news {
+	margin-left: 25%;
+}
+
+#articles {
+	margin-top: 0.5%;
+	padding-top: 0;
+	height: 70vh;
+	display: flex;	
+}
+
+#sports-image-container {
+	display: none;
+}
+
+#break {
+	display: none;
+}
+
+#toggle-circle {
+	display: none;
+}
+
+#f-article h3 {
+	font-size: calc(10px + (40 - 10) * ((100vw - 300px) / (1600 - 300)));
+    	font-weight: 800;
+    	line-height: 1.5vw;
+}
+
+#f-article p {
+	font-size: calc(8px + (20 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+#superbowl {
+	height: 80vh;
+}
+
+#sub-info h3 {
+	font-size: calc(10px + (60 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+
+
+#article-2 {
+	height: 750px;
+}
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+#news {
+	margin-left: 30%;
+}
+
+#ddul2-flex {
+	position: absolute;
+	left: 0;
+}
+
+#nba-hl {
+	left: 0px;
+}
+
+#nfl-hl {
+	left: 0px;
+}
+
+#mlb-hl {
+	left: 0px;
+}
+
+#nhl-hl {
+	left: 0px;
+}
+
+#articles {
+	height: 85vh;	
+}
+
+#superbowl {
+	height: 90vh;
+}
+
+#article-2 {
+	height: 95vh;
+}
+	
+}
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+
+
+#news {
+	margin-left: 35%;
+}
+
+#articles {
+	height: 90vh;	
+}
+
+#superbowl {
+	height: 100vh;
+}
+
+#article-2 {
+	height: 100vh;
+}
+
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+
+@media only screen and (min-width: 1400px) {
+
+.ddFlex {
+	font-size: 1em;
+	width: 900px;
+	height: 450px
+}
+
+.prednewsSize { 
+	width: 100%;
+	height: 200px;
+}
+
+.prednewsSize p { 
+	width: 280px;
+	top: 130px;
+}
+
+#ddul2-flex {
+	font-size: 0.7em;
+}
+
+#ddul3 {
+	font-size: 0.7em;
+}
+
+
+#articles {
+	height: 100vh;	
+}
+
+#superbowl {
+	height: 80vh;
+}
+
+
+}	

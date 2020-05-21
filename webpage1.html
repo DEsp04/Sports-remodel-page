@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+  <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Dave's Sport Center</title>
+		<link rel="stylesheet" href="styles/sportnews.css">
+		<link rel="stylesheet" href="md/media-queries.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Heebo:800&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/606dd3ae68.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	  <div class="sidebar" id="mysidebar"> <!-- This is where I will be placing my sidebar -->
+		<ul class="sidebar-ul" id="sidebar-sports">
+			<li id="sidebar-sportheader"><h2>Sports</h2></li>
+			<li><a href="#">NBA</a></li>
+			<li><a href="#">NFL</a></li>
+			<li><a href="#">MLB</a></li>
+			<li><a href="#">NHL</a></li>
+			<li><a href="#">Boxing</a></li>
+			<li><a href="#">Bowling</a></li>
+			<li><a href="#">Cycling</a></li>
+			<li><a href="#">Cricket</a></li>
+			<li><a href="#">Formula One</a></li>
+			<li><a href="#">Golf</a></li>
+			<li><a href="#">Gymnastics</a></li>
+			<li><a href="#">MLS</a></li>
+			<li><a href="#">MMA</a></li>
+			<li><a href="#">NCAA</a></li>
+			<li><a href="#">NASCAR</a></li>
+			<li><a href="#">Pool</a></li>
+			<li><a href="#">Rugby</a></li>
+			<li><a href="#">Soccer</a></li>
+			<li><a href="#">Tennis</a></li>
+			<li><a href="#">WNBA</a></li>
+			<li><a href="#">WWE</a></li>
+			<li><a href="#">more...</a></li>
+		</ul>
+
+		<ul id="broadcast" class="sidebar-ul">
+			<li><a href="#">Sport News</a></li>
+			<li><a href="#">Shows</a></li>
+			<li><a href="#">Tickets</a></li>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="#">Login</a></li>
+		</ul>
+	  </div>
+	  <div id="main-webpage-content">
+	    <div id="bkgrnd">
+		<header>	<!-- In the header we going to add a nav like Fox Sport but we going to keep the original content or link. (Flex) -->
+
+			
+				<!-- We added 'javascript:void(0)' to tell the webpage to avoid any of the side-effect as you click the icon. -->
+			<div id="hamburger"><a href="javascript:void(0)"><i onclick="myFunction()" class="hambtn fas fa-bars"></i></a></div>  <!-- hamburger icon -->
+
+
+
+
+			<div id="logo">
+				<h1 id="logotext">D'S SC</h1>
+			</div>
+			<nav>		
+				<ul id="navUL"> <!-- flex -->
+					<li><a href="#" id="home-text">Home</a></li>
+					<li class="relative">
+						<a href="#" id="nba-text">NBA</a>
+						<div class="ddFlex" id="nba-hl"> <!-- (flex) -->
+							<ul class="ddul1"> <!-- Topics -->
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Scores</a></li>
+								<li><a href="#">Standings</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Teams</a></li>
+								<li><a href="#">Stats</a></li>
+								<li><a href="#">NBA Draft</a></li>
+								<li><a href="#">Playoffs</a></li>
+								<li><a href="#">NBA Finals</a></li>
+							</ul> 
+							
+							<div>
+								<div class="prediction-news"> <!-- flex -->
+									<div class="prediction"> <!-- Prediction Sect. -->
+										<ul>
+											<li><a href="#"><div id="predNBA" class="prednewsSize"><p>Clippers will take it all but the Lakers...</p></div></a></li> <!-- We will put image as background -->
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Doncic will be a HOF in the coming years, no one is...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Celtics could bring some surprise this season</p></a></li>
+										</ul>
+									</div>	
+							
+									<div class="news"> <!-- News Sect. -->
+										<ul>
+											<li><a href="#"><div id="newsNBA" class="prednewsSize"><p>AI the best crossover artist to have ever...</p></div></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Derrick Rose should have rested on the day he got...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Giannis Antetokounmpo will win MVP, it's gurantee!</p></a></li>
+										</ul>	
+									</div>	
+								</div>
+								<a href="#"><div class="sport-subhead"><p>VIEW MORE NEWS</p></div></a>
+							</div>
+						</div>			
+					</li>	
+					<li class="relative">
+						<a href="#" id="nfl-text">NFL</a>
+						<div class="ddFlex"  id="nfl-hl"> <!-- (flex) -->
+							<ul class="ddul1"> <!-- Topics -->
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Scores</a></li>
+								<li><a href="#">Standings</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Teams</a></li>
+								<li><a href="#">Stats</a></li>
+								<li><a href="#">NFL Draft</a></li>
+								<li><a href="#">Super Bowl</a></li>
+							</ul> 
+							
+							<div>
+								<div class="prediction-news"> <!-- flex -->
+									<div class="prediction"> <!-- Prediction Sect. -->
+										<ul>
+											<li><a href="#"><div id="predNFL" class="prednewsSize"><p>San Francisco 49er: Ready For The Super...</p></div></a></li> <!-- We will put image as background -->
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Kansas City Chief will beat the Titans here is why...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Experts are saying Chief and Packers are...</p></a></li>
+										</ul>
+									</div>	
+							
+									<div class="news"> <!-- News Sect. -->
+										<ul>
+											<li><a href="#"><div id="newsNFL" class="prednewsSize"><p>Giants hire Jason Garrett as offensive...</p></div></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Tom Brady tell reporters he will retire after...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Lamar Jackson apologizes for losing against the...</p></a></li>
+										</ul>	
+									</div>	
+								</div>
+								<a href="#"><div class="sport-subhead"><p>VIEW MORE NEWS</p></div></a>
+							</div>
+						</div>	
+					</li>
+					<li class="relative">
+						<a href="#" id="mlb-text">MLB</a>
+						<div class="ddFlex"  id="mlb-hl"> <!-- (flex) -->
+							<ul class="ddul1"> <!-- Topics -->
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Scores</a></li>
+								<li><a href="#">Standings</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Teams</a></li>
+								<li><a href="#">Stats</a></li>
+								<li><a href="#">Wild Card</a></li>
+								<li><a href="#">Playoffs</a></li>
+							</ul> 
+							
+							<div>
+								<div class="prediction-news"> <!-- flex -->
+									<div class="prediction"> <!-- Prediction Sect. -->
+										<ul>
+											<li><a href="#"><div id="predMLB" class="prednewsSize"><p>Dodgers are a power house?</p></div></a></li> <!-- We will put image as background -->
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Washington Nationals might land Manny, once...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>If Bond, McGwire and Sosa never took...</p></a></li>
+										</ul>
+									</div>	
+							
+									<div class="news"> <!-- News Sect. -->
+										<ul>
+											<li><a href="#"><div id="newsMLB" class="prednewsSize"><p>Yankees are trading their rotation...</p></div></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Alex Cora, you're fire! Boston announced Friday...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Feds are investigating the sign stealing...</p></a></li>
+										</ul>	
+									</div>	
+								</div>
+								<a href="#"><div class="sport-subhead"><p>VIEW MORE NEWS</p></div></a>
+							</div>
+						</div>
+					</li>
+					<li class="relative">
+						<a href="#" id="nhl-text">NHL</a>
+						<div class="ddFlex" id="nhl-hl"> <!-- (flex) -->
+							<ul class="ddul1"> <!-- Topics -->
+								<li><a href="#">Home</a></li>
+								<li><a href="#">Scores</a></li>
+								<li><a href="#">Standings</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Teams</a></li>
+								<li><a href="#">Stats</a></li>
+								<li><a href="#">NHL Draft</a></li>
+								<li><a href="#">Stanley Cup</a></li>
+							</ul> 
+							
+							<div>
+								<div class="prediction-news"> <!-- flex -->
+									<div class="prediction"> <!-- Prediction Sect. -->
+										<ul>
+											<li><a href="#"><div id="predNHL" class="prednewsSize"><p>There is a chance Rangers will look for...</p></div></a></li> <!-- We will put image as background -->
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Islanders have a chance to win the division, it is...</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>List of teams with the will of fighting for the...</p></a></li>
+										</ul>
+									</div>	
+							
+									<div class="news"> <!-- News Sect. -->
+										<ul>
+											<li><a href="#"><div id="newsNHL" class="prednewsSize"><p>Penguins are in a roll with back to...</p></div></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>How are Canucks still lead the Pacific division?</p></a></li>
+											<li class="flex-li"><span class="square">&#9632;</span><a href="#"><p>Patrick Kane score 1,000 career high...</p></a></li>
+										</ul>	
+									</div>	
+								</div>
+								<a href="#"><div class="sport-subhead"><p>VIEW MORE NEWS</p></div></a>
+							</div>
+						</div>
+
+					</li>
+					<li class="relative2">
+						<a href="#" id="e-icon"><i class="fas fa-ellipsis-h"></i></a>
+						<div id="ddul2-flex"> <!-- Topics -->
+							<ul>
+								<li><a href="#">Boxing</a></li>
+								<li><a href="#">Bowling</a></li>
+								<li><a href="#">Cycling</a></li>
+								<li><a href="#">Cricket</a></li>
+								<li><a href="#">Formula One</a></li>
+								<li><a href="#">Golf</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Gymnastics</a></li>
+								<li><a href="#">MLS</a></li>
+								<li><a href="#">MMA</a></li>
+								<li><a href="#">NCAA</a></li>
+								<li><a href="#">NASCAR</a></li>
+								<li><a href="#">Pool</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Rugby</a></li>
+								<li><a href="#">Soccer</a></li>
+								<li><a href="#">Tennis</a></li>
+								<li><a href="#">WNBA</a></li>
+								<li><a href="#">WWE</a></li>
+								<li><a href="#">more...</a></li>
+							</ul>
+						</div> 
+					</li>
+					<li id="news"><a href="#" id="sports-text">Sport News</a></li>
+					<li id="relative3">
+						<a href="#" id="show-text">Shows</a>
+						<ul id="ddul3"> <!-- Topics -->
+								<li><a href="#">The Morning Show</a></li>
+								<li><a href="#">Sport Legends</a></li>
+								<li><a href="#">DY News</a></li>
+								<li><a href="#">Mamba</a></li>
+								<li><a href="#">Under/Over</a></li>
+								<li><a href="#">Athletes lifestyle</a></li>
+								<li><a href="#">GOAT Documentary</a></li>
+						</ul>
+						
+					</li>
+					<li><a href="#" id="ticks-text">Tickets</a></li>
+					<li><a href="#" id="sign-text">Sign Up</a></li>
+					<li><a href="#" id="login-text">Login</a></li>
+				</ul>		
+			</nav>
+		</header>
+               </div>	
+		
+		<main>	<!-- Section is going to be news on all sports news. Is going to look like a facade. (Flex) -->
+			<div id="articles">
+				<article class="first-article"> 	<!-- One top of the other; we going to have NBA (top) and NFL new (below) -->
+				  <a href="#">
+					<div id="NY-Knicks">
+					  <div class="top-article">
+						<div class="main-header" id="NY-Knicks-header"><p>NEW YORK KNICKS</p></div> <!-- Add background img -->
+						<h3>Have the NY Knicks found their coach?</h3>
+						<p>by Anonymous</p>
+					  </div>
+					</div>
+				  </a>
+				  <div class="space"></div>
+				  <a href="#">
+					<div id="Tenn-Titans">
+					  <div class="bottom-article">
+						<div class="main-header" id="Tenn-Titans-header"><p>TENNESSEE TITANS</p></div>
+						<h3>Titans are ready to upset the Chiefs</h3>
+						<p>by Fan</p>
+					  </div>
+					</div>
+				  </a>
+				</article> 
+				
+				<article id="big-article"> 	<!-- Entire div element going to be on one story Kobe -->
+				  <a href="#">
+					<div id="Kobe">
+					  <div id="middle-article">
+						<div class="main-header" id="Kobe-header"><p>NBA</p></div> <!-- Make a box that occupies the entire of the parent div -->
+						<h3>THE LEGEND</h3>
+						<p>by Regretful Fan</p>
+					  </div>
+					</div>
+				  </a>
+				</article> 
+				
+				<article class="first-article">  <!-- Legendary Sports Story (top) and Fan made story (bottom) -->
+				  <a href="#">
+					<div id="Mike-Tyson">
+					  <div class="top-article">
+						<div class="main-header" id="Mike-Tyson-header"><p>MIKE TYSON</p></div>
+						<h3>When Iron Mike ruled boxing</h3>
+						<p>by Boxer Biggest Fan</p>
+					  </div>
+					</div>
+				  </a>
+				  <div class="space"></div>
+				  <a href="#">
+					<div id="IfAstros">
+					  <div class="bottom-article">
+						<div class="main-header" id="IfAstros-header"><p>MLB</p></div>
+						<h3>If Astros wouldn't have cheated!</h3>
+						<p>by Angry Fans</p>
+					  </div>
+					</div>
+				  </a>
+				</article> 
+			</div>
+
+
+
+
+
+			<div id="sports-image-container"> <!-- We are going to put the image container here for smaller screen width -->
+			   <a href="#">
+				<div class="slide" id="mobile-knicks">
+					<div class="mobile-header-position">
+						<div class="long-header"><p>NEW YORK KNICKS</p></div>
+						<h3>Have the NY Knicks found their coach?</h3>
+						<p class="authors-name">by Anonymous</p>
+					</div>
+				</div>
+			   </a>
+
+			   <a href="#">
+				<div class="slide" id="mobile-titans">
+					<div class="mobile-header-position">
+						<div class="long-header"><p>TENNESSEE TITANS</p></div>
+						<h3>Titans are ready to upset the Chiefs</h3>
+						<p class="authors-name">by Fan</p>
+					</div>
+					
+				</div>
+			   </a>
+
+			   <a href="#">
+				<div class="slide" id="mobile-kobe">
+					<div class="mobile-header-position" id="kobe-header">
+						<div class="short-header"><p>NBA</p></div>
+						<h3>THE LEGEND</h3>
+						<p class="authors-name">by Regretful Fan</p>
+					</div>
+				</div>
+
+			   <a href="#">
+				<div class="slide" id="mobile-tyson">
+					<div class="mobile-header-position">
+						<div id="mike-tyson-header"><p>MIKE TYSON</p></div>
+						<h3>When Iron Mike ruled boxing</h3>
+						<p class="authors-name">by Boxer Biggest Fan</p>
+					</div>
+				</div>
+			   </a>
+
+			   <a href="#">				
+				<div class="slide" id="mobile-astro">
+					<div class="mobile-header-position">
+						<div class="short-header"><p>MLB</p></div>
+						<h3>If Astros wouldn't have cheated!</h3>
+						<p class="authors-name">by Angry Fans</p>
+					</div>
+				</div>
+			   </a>
+			</div>
+			<br id="break">
+			<div id="toggle-circle">
+				<span class="circle" onclick="currentArticle(1)"></span>
+				<span class="circle" onclick="currentArticle(2)"></span>
+				<span class="circle" onclick="currentArticle(3)"></span>
+				<span class="circle" onclick="currentArticle(4)"></span>
+				<span class="circle" onclick="currentArticle(5)"></span>
+			</div>
+
+
+
+
+
+			<div id="fight-poster">  <!-- Big fight poster Wilder vs Fury -->
+			  <a href="#">
+				<img src="images/tysonvswilder.jpeg">
+				<div id="f-p-header"><p>BOXING</p></div>
+				<div id="f-article">
+					<h3>Get Ready For The Long Awaited Heavy-Weight Fight</h3>
+					<p id="f-p-subtitle">Deontay Wilder may be today's best knock-out artist, but will that be enough to take on Tyson Fury?</p>
+					<p>by Knock-out Enthusiast</p>
+				</div>
+			  </a>
+			</div>
+			
+			<div id="superbowl">
+				<h2>SUPER BOWL LIV</h2>
+				<a href="#" id="sb-article1">
+					<div class="outer-container">
+						<div id="sb-image1"></div>
+						<div class="sb-relative">
+							<div id="sb-news1">
+								<h3>TEAMS STRENGTH &amp; WEAKNESS</h3>
+								<p>by All Super Bowl Fans</p>
+					  		</div>
+						</div>
+					</div>
+				</a>
+				<div id="space-2"></div>
+				<a href="#" id="sb-article2">	
+					<div class="outer-container">
+						<div class="sb-relative">
+							 <div id="sb-news2">
+								<h3>WHICH TEAM WILL WIN THE SUPER BOWL?</h3>
+								<p>by San Francisco Fans</p>
+					 		 </div>
+						</div>
+						<div id="sb-image2"></div>
+					</div>
+				</a>
+			</div>
+
+			<div id="subscribe-nba">
+					<img src="images/nba-collage.jpeg">
+					<div id="sub-info">
+						<h3>SUBSCRIBE TO OUR NBA MAGAZINES</h3>
+						<p id="subscribe-content">Get the quality of magazine you need written by our best writers! Sign up and get 1 of subscription for free!</p>
+						<a href="#"><div id="subscribe-sign-up"><p>SIGN UP NOW</p></div></a>
+					</div>
+			</div>
+
+			<div id="article-2">	
+				<h2>THE LATEST</h2>
+				<div class="outer-container2">
+				  <a href="#">
+					<div class="article-2-flex"> <!-- flex -->
+						<div id="college-bb-teams"></div> <!-- image -->
+						<div class="article2-relative">
+							<ul class="first-ul">
+								<li><h3>College Basketball Power Rankings:</h3></li>
+								<li>
+									<ul class="article2-flex"><!-- Flex -->
+										<li>by Basketball Fan</li>
+										<li><time datetime="2020-02-01"> &nbsp; &nbsp;February 1</time></li>
+									<ul>
+								</li>
+							</ul>
+						</div> <!-- header and title -->
+				  	</div>
+				  </a>
+				</div>		
+
+				<div class="outer-container2">
+				  <a href="#">
+					<div class="article-2-flex"> <!-- flex -->
+						<div id="mohamed-salah"></div> <!-- image -->
+						<div class="article2-relative">
+							<ul class="first-ul">
+								<li><h3>Mohamed Salah is soaring in the English Premier</h3></li>
+								<li>
+									<ul class="article2-flex"><!-- Flex -->
+										<li>by Soccer Fanatic</li>
+										<li><time datetime="2020-01-31"> &nbsp; &nbsp;January 31</time></li>
+									<ul>
+								</li>
+							</ul>
+						</div> <!-- header and title -->
+				  	</div>
+				  </a>
+				</div>
+
+				<div class="outer-container2">
+				  <a href="#">
+					<div class="article-2-flex"> <!-- flex -->
+						<div id="novak-djokovic"></div> <!-- image -->
+						<div class="article2-relative">
+							<ul class="first-ul">
+								<li><h3>Novak Djokovic has defeated Roger Ferrer in Australian Open</h3></li>
+								<li>
+									<ul class="article2-flex"><!-- Flex -->
+										<li>by Tennis Fans</li>
+										<li><time datetime="2020-01-30"> &nbsp; &nbsp;January 30</time></li>
+									<ul>
+								</li>
+							</ul>
+						</div> <!-- header and title -->
+				  	</div>
+				  </a>
+				</div>
+				
+				<div class="outer-container2">
+				  <a href="#">
+					 <div class="article-2-flex"> <!-- flex -->
+						<div id="namajunas-andrade"></div> <!-- image -->
+						<div class="article2-relative">
+							<ul class="first-ul">
+								<li><h3>Who will win the fight on Saturday?</h3></li>
+								<li>
+									<ul class="article2-flex"><!-- Flex -->
+										<li>by MMA Fans</li>
+										<li><time datetime="2020-30-01"> &nbsp; &nbsp;January 30</time></li>
+									<ul>
+								</li>
+							</ul>
+						</div> <!-- header and title -->
+				 	 </div>
+				  </a>
+				</div>
+
+				<div id="latest-more-news"><a href="#"><p>MORE NEWS</p></a></div>
+	
+			</div>
+
+		</main>
+		
+		<footer>
+			<div id="footer-flex">
+				<div id="flex-item-one">
+				   <div id="footer-relative">
+					<h1><span style="color: white; -webkit-text-stroke: 1.8px #224579;">D'S</span> <span style="color: yellow; -webkit-text-stroke: 1.8px #224579;">SC</span></h1>
+				   </div>
+				   <ul>
+				   	<li><a href="#">About Us</a></li>
+				   	<li><a href="#">Privacy Policy</a></li>
+				   	<li><a href="#">Terms of Services</a></li>
+				   </ul>
+				   <div id="property-rights">
+				   	<p>Copyright &copy; 2020. D'S SC by David Espinal</p>
+				   </div>	
+				</div>
+				<div id="f-name"><p>David Espinal</p></div>	
+			</div>
+		</footer>
+	  </div>
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+		<script src="js/javascript.js"></script>
+	</body>
+  </html>
