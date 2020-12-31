@@ -458,8 +458,8 @@ $("#login-text").mouseout(function() {
 /* When hamburger icon is click and the side bar slide open and close */
 
 
-var sideBar = document.getElementById("mysidebar");
-var mainWebpageContent = document.getElementById("main-webpage-content");
+let sideBar = document.getElementById("mysidebar");
+let mainWebpageContent = document.getElementById("main-webpage-content");
 
 function myFunction() {
 	if (sideBar.style.width === "200px" || mainWebpageContent.style.marginLeft === "200px") {
@@ -492,7 +492,7 @@ function puttingMainBack(x) {
 		}
 };
 
-var x = window.matchMedia("(min-width: 768px)");
+let x = window.matchMedia("(min-width: 768px)");
 
 x.addListener(puttingMainBack);
 

@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
 
 .sidebar {
-	height: 100%;	
+	height: 100%;
 	width: 0; /* we are going to use js coding to change the width of sidebar */
 	position: fixed; /* side bar will stay in place*/
 	z-index: 1; /* Allow sidebar to stay on top */
@@ -18,7 +18,7 @@
 	font-size: 1.3em;
 	list-style-type: none;
 	padding: 0%;
-	margin: 12%; 
+	margin: 12%;
 }
 
 .sidebar-ul li {
@@ -83,7 +83,7 @@
 
 #bkgrnd {
 	width: 100%;
-	position: fixed;	
+	position: fixed;
 	z-index: 1000;
 }
 
@@ -96,19 +96,19 @@ header nav {
 	width: 40%;
 	position: relative;
 	display: inline-block;
-	margin-left: 5%; 
+	margin-left: 5%;
 }
 
 .hambtn {
 	background-color: yellow;
 	color: #224579;
-	font-size: 1.6em;	
+	font-size: 1.6em;
 	border-radius: 12%;
 	border: none;
 	cursor: pointer;
 	padding: 3px 6px;
 	position: absolute;
-	top: 26%;		
+	top: 26%;
 }
 
 
@@ -121,7 +121,7 @@ header nav {
 	margin-top: 0;
 	padding-top: 7%;
 	height: 50vh;
-	display: none;	
+	display: none;
 }
 
 #sports-image-container {
@@ -156,7 +156,7 @@ header nav {
 #mobile-kobe  h3 {
 	margin: 24% 0 0 0;
 }
- 
+
 #mobile-tyson {
 	background-image: url(../images/MikeTyson.jpg);
 }
@@ -233,7 +233,7 @@ header nav {
 
 .authors-name {
 	color: white;
-	font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (767 - 300)));	
+	font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (767 - 300)));
 }
 
 #toggle-circle {
@@ -310,7 +310,7 @@ header nav {
 /* keep in mind we might have to adjust the sidebar for smaller device using padding */
 
 .sidebar {
-	height: 100%;	
+	height: 100%;
 	width: 0; /* we are going to use js coding to change the width of sidebar */
 	position: fixed; /* side bar will stay in place*/
 	z-index: 1; /* Allow sidebar to stay on top */
@@ -320,14 +320,14 @@ header nav {
 	overflow-x: hidden; /* to turn off the horizontal scroll by using 'hidden'*/
 	padding-top: 0px; /* this is to see where you want the content to start vertically */
 	transition: 0.01s; /* how fast you want the sidebar to slide */
-	
+
 }
 
 .sidebar-ul {
 	font-size: 1.4em;
 	list-style-type: none;
 	padding: 0%;
-	margin: 10%; 
+	margin: 10%;
 }
 
 .sidebar-ul li {
@@ -393,7 +393,7 @@ header nav {
 
 #bkgrnd {
 	width: 100%;
-	position: fixed;	
+	position: fixed;
 	z-index: 1000;
 }
 
@@ -406,19 +406,19 @@ header nav {
 	width: 40%;
 	position: relative;
 	display: inline-block;
-	margin-left: 5%; 
+	margin-left: 5%;
 }
 
 .hambtn {
 	background-color: yellow;
 	color: #224579;
-	font-size: 1.6em;	
+	font-size: 1.6em;
 	border-radius: 12%;
 	border: none;
 	cursor: pointer;
 	padding: 3px 6px;
 	position: absolute;
-	top: 26%;		
+	top: 26%;
 }
 
 #news {
@@ -448,7 +448,7 @@ header nav {
 #articles {
 	margin-top: 0;
 	padding-top: 7%;
-	display: none;	
+	display: none;
 }
 
 #sports-image-container {
@@ -483,7 +483,7 @@ header nav {
 #mobile-kobe  h3 {
 	margin: 24% 0 0 0;
 }
- 
+
 #mobile-tyson {
 	background-image: url(../images/MikeTyson.jpg);
 }
@@ -560,7 +560,7 @@ header nav {
 
 .authors-name {
 	color: white;
-	font-size: calc(9px + (10 - 9) * ((100vw - 300px) / (767 - 600)));	
+	font-size: calc(9px + (10 - 9) * ((100vw - 300px) / (767 - 600)));
 }
 
 #toggle-circle {
@@ -641,7 +641,7 @@ header nav {
 	font-size: 1.8em;
 	position: absolute;
 	top: 3%;
-	left: 4%; 
+	left: 4%;
 }
 
 header nav {
@@ -662,7 +662,7 @@ header nav {
 	margin-top: 0.5%;
 	padding-top: 0;
 	height: 70vh;
-	display: flex;	
+	display: flex;
 }
 
 #sports-image-container {
@@ -736,7 +736,7 @@ header nav {
 }
 
 #articles {
-	height: 85vh;	
+	height: 85vh;
 }
 
 #superbowl {
@@ -746,7 +746,7 @@ header nav {
 #article-2 {
 	height: 95vh;
 }
-	
+
 }
 
 
@@ -763,7 +763,7 @@ header nav {
 }
 
 #articles {
-	height: 90vh;	
+	height: 90vh;
 }
 
 #superbowl {
@@ -789,12 +789,12 @@ header nav {
 	height: 450px
 }
 
-.prednewsSize { 
+.prednewsSize {
 	width: 100%;
 	height: 200px;
 }
 
-.prednewsSize p { 
+.prednewsSize p {
 	width: 280px;
 	top: 130px;
 }
@@ -809,7 +809,7 @@ header nav {
 
 
 #articles {
-	height: 100vh;	
+	height: 100vh;
 }
 
 #superbowl {
@@ -817,4 +817,4 @@ header nav {
 }
 
 
-}	
+}
