@@ -500,8 +500,8 @@ x.addListener(puttingMainBack);
 
 /* Below we going to code for the article to slide automatically or manually */
 
-var articleIndex = 1;
-var timer = null;
+let articleIndex = 1;
+let timer = null;
 showArticles(articleIndex);
 
 function currentArticle (n) {
@@ -510,10 +510,10 @@ function currentArticle (n) {
 }
 
 function showArticles(n) {
- var k;
- var articles = document.getElementsByClassName("slide");
- var circles = document.getElementsByClassName("circle");
- if (n==undefined){n = ++articleIndex}
+ let k;
+ let articles = document.getElementsByClassName("slide");
+ let  circles = document.getElementsByClassName("circle");
+ if (n == undefined){n = ++articleIndex}
  if (n > articles.length) {articleIndex = 1}
  if (n < 1) {articleIndex = articles.length}
  for (k = 0; k < articles.length; k++) {
