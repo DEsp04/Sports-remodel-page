@@ -479,7 +479,7 @@ function myFunction() {
 
 /* The function below was created to allow sidebar fade away and have the main content width return back to its normal width size as the screen width is being shrunk or expanded */
 
-function puttingMainBack(x) {
+const puttingMainBack =(x) => {
   	if (x.matches) {
     		mainWebpageContent.style.marginLeft = "0";
   	} else if (sideBar.style.width !== "200px") {
@@ -504,7 +504,7 @@ let articleIndex = 1;
 let timer = null;
 showArticles(articleIndex);
 
-function currentArticle (n) {
+const currentArticle = (n) => {
   clearTimeout(timer);
   showArticles(articleIndex = n);
 }
