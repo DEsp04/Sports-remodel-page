@@ -513,9 +513,14 @@ function showArticles(n) {
  let k;
  let articles = document.getElementsByClassName("slide");
  let  circles = document.getElementsByClassName("circle");
- if (n == undefined){n = ++articleIndex}
- if (n > articles.length) {articleIndex = 1}
- if (n < 1) {articleIndex = articles.length}
+  if (n == undefined) {
+    n = ++articleIndex;
+  } else if (n > articles.length) {
+    articleIndex = 1;
+  } else if (n < 1) {
+    articleIndex = articles.length;
+  }
+  
  for (k = 0; k < articles.length; k++) {
       articles[k].style.display = "none";
   }
