@@ -8,7 +8,7 @@ logoElement.innerHTML = logoElement.innerHTML.replace("SC", "<span style='color:
 
 
 /* We are going to change colors of 'a' texts; when one 'a' text is hover the rest changes color. Also we include it to the drop-down*/
-
+//I need to find a way to refactor the bottom code
 $("#home-text").mouseover(function() {
 	$("#nba-text").css("color", "gray");
 	$("#nfl-text").css("color", "gray");
