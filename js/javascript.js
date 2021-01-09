@@ -501,7 +501,7 @@ x.addListener(puttingMainBack);
 /* Below we going to code for the article to slide automatically or manually */
 
 let articleIndex = 1;
-let timer = null;
+let timer = undefined;
 showArticles(articleIndex);
 
 const currentArticle = (n) => {
