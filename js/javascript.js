@@ -9,449 +9,449 @@ logoElement.innerHTML = logoElement.innerHTML.replace("SC", "<span style='color:
 
 /* We are going to change colors of 'a' texts; when one 'a' text is hover the rest changes color. Also we include it to the drop-down*/
 //I need to find a way to refactor the bottom code
-$("#home-text").mouseover(function() {
-	$("#nba-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#home-text").mouseover(function() {
+// 	$("#nba-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#home-text").mouseout(function() {
-	$("#nba-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#home-text").mouseout(function() {
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#nba-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#nba-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#nba-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#nba-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#nba-hl").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#nba-hl").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#nba-hl").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#nba-hl").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
 
-$("#nfl-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#nfl-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#nfl-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#nfl-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#nfl-hl").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#nfl-hl").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#nfl-hl").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#nfl-hl").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#mlb-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#mlb-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#mlb-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#mlb-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#mlb-hl").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#mlb-hl").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#mlb-hl").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#mlb-hl").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#nhl-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#nhl-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#nhl-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#nhl-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#nhl-hl").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#nhl-hl").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#nhl-hl").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#nhl-hl").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#e-icon").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#e-icon").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#e-icon").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#e-icon").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#ddul2-flex").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#ddul2-flex").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#ddul2-flex").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#ddul2-flex").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#sports-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#sports-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#sports-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#sports-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#show-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#show-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#show-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#show-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
 
-$("#ddul3").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#ddul3").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#ddul3").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#ddul3").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#ticks-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#ticks-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#ticks-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#ticks-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#sign-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#login-text").css("color", "gray");
-});
+// $("#sign-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#login-text").css("color", "gray");
+// });
                             
-$("#sign-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#login-text").css("color", "#224579");
-});
+// $("#sign-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#login-text").css("color", "#224579");
+// });
 
-$("#login-text").mouseover(function() {
-	$("#home-text").css("color", "gray");
-	$("#nfl-text").css("color", "gray");
-	$("#mlb-text").css("color", "gray");
-	$("#nba-text").css("color", "gray");
-	$("#e-icon").css("color", "gray");
-	$("#show-text").css("color", "gray");
-	$("#nhl-text").css("color", "gray");
-	$("#sports-text").css("color", "gray");
-	$("#ticks-text").css("color", "gray");
-	$("#sign-text").css("color", "gray");
-});
+// $("#login-text").mouseover(function() {
+// 	$("#home-text").css("color", "gray");
+// 	$("#nfl-text").css("color", "gray");
+// 	$("#mlb-text").css("color", "gray");
+// 	$("#nba-text").css("color", "gray");
+// 	$("#e-icon").css("color", "gray");
+// 	$("#show-text").css("color", "gray");
+// 	$("#nhl-text").css("color", "gray");
+// 	$("#sports-text").css("color", "gray");
+// 	$("#ticks-text").css("color", "gray");
+// 	$("#sign-text").css("color", "gray");
+// });
                             
-$("#login-text").mouseout(function() {
-	$("#home-text").css("color", "#224579");
-	$("#nfl-text").css("color", "#224579");
-	$("#mlb-text").css("color", "#224579");
-	$("#nba-text").css("color", "#224579");
-	$("#e-icon").css("color", "#224579");
-	$("#show-text").css("color", "#224579");
-	$("#nhl-text").css("color", "#224579");
-	$("#sports-text").css("color", "#224579");
-	$("#ticks-text").css("color", "#224579");
-	$("#sign-text").css("color", "#224579");
-});
+// $("#login-text").mouseout(function() {
+// 	$("#home-text").css("color", "#224579");
+// 	$("#nfl-text").css("color", "#224579");
+// 	$("#mlb-text").css("color", "#224579");
+// 	$("#nba-text").css("color", "#224579");
+// 	$("#e-icon").css("color", "#224579");
+// 	$("#show-text").css("color", "#224579");
+// 	$("#nhl-text").css("color", "#224579");
+// 	$("#sports-text").css("color", "#224579");
+// 	$("#ticks-text").css("color", "#224579");
+// 	$("#sign-text").css("color", "#224579");
+// });
 
 
 
